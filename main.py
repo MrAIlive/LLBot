@@ -5,9 +5,9 @@ os.system("cls")
 
 async def AI(websocket, Evnet_params: Event, Lock):
     Spark = SparkAPI(url="wss://spark-api.xf-yun.com/v3.5/chat",
-                     APiSecret="NzZjMTI1NTkxMGY5YzdjN2UxYjJlZDQz",
-                     apikey="3bdea11a61e16097810ad59e73258749",
-                     appid="29693ce8", EVENT=Evnet_params, Lock=Lock)
+                     APiSecret="23232",
+                     apikey="2132",
+                     appid="dqwd", EVENT=Evnet_params, Lock=Lock)
     await Spark.run_forever(websocket.send)
 
 
